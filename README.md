@@ -2,7 +2,7 @@
 
 A production-ready REST API built with **FastAPI** and **SQLite** that helps small businesses track stock levels, record inventory movements, and receive low-stock alerts — replacing manual spreadsheets with a clean, documented API.
 
-> **Live Demo:** [https://your-app.onrender.com/docs](https://your-app.onrender.com/docs) ← replace after deploy
+> **Live Demo:** [https://inventory-management-api-qf0r.onrender.com/]
 
 ---
 
@@ -40,7 +40,7 @@ A production-ready REST API built with **FastAPI** and **SQLite** that helps sma
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/inventario-api.git
+git clone https://github.com/best98-Jordan/inventory-management-api
 cd inventario-api
 
 # 2. Create and activate virtual environment
@@ -57,11 +57,7 @@ cp .env.example .env
 
 # 5. Run the server
 uvicorn app.main:app --reload
-```
 
-Open **http://localhost:8000/docs** to explore the interactive API documentation.
-
----
 
 ## 📡 API Endpoints
 
@@ -191,20 +187,6 @@ Generate a secure key with:
 python -c "import secrets; print(secrets.token_hex(32))"
 ```
 
----
-
-## 🌐 Deploy to Render (Free)
-
-1. Push this repo to GitHub
-2. Go to [render.com](https://render.com) → New → Web Service
-3. Connect your GitHub repo
-4. Set these values:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-5. Add environment variable: `SECRET_KEY` = your secure key
-6. Click **Deploy** — your API will be live in ~2 minutes
-
----
 
 ## 🤝 Use Cases
 
@@ -219,8 +201,8 @@ This API is designed for small businesses that need to:
 ## 👨‍💻 Author
 
 **Jordan** — Python & FastAPI Developer  
-📧 your@email.com  
-🔗 [github.com/your-username](https://github.com/your-username)  
+📧 jordanquibest98@email.com  
+🔗 [github.com/best98-Jordan](https://github.com/best98-Jordan)  
 💼 Available for freelance projects on Workana and Freelancer
 
 ---
